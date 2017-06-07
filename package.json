@@ -17,9 +17,11 @@
     "verbose": true,
     "testResultsProcessor": "jest-teamcity-reporter",
     "collectCoverage": true,
+    "coveragePathIgnorePatterns": ["/abcd/"],
     "collectCoverageFrom": [
       "**/src/**/*.{js,jsx}"
     ]
+    
   },
   "author": "João Fernandes",
   "license": "MIT"
