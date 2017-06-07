@@ -1,0 +1,7 @@
+#Node Modules Directory
+/node_modules/
+#Coverage folder , nyc folder
+coverage/
+
+
+

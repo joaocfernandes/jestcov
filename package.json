@@ -1,0 +1,26 @@
+{
+  "name": "jestcov",
+  "version": "0.0.1",
+  "description": "Sample Jest Coverage",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^20.0.4"
+  },
+  "devDependencies": {
+    "jest": "^20.0.4",
+    "jest-teamcity-reporter": "^0.6.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true,
+    "testResultsProcessor": "jest-teamcity-reporter",
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "**/src/**/*.{js,jsx}"
+    ]
+  },
+  "author": "João Fernandes",
+  "license": "MIT"
+}
