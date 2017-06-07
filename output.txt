@@ -1,0 +1,102 @@
+{
+  "config": {
+    "automock": false,
+    "browser": false,
+    "cache": false,
+    "cacheDirectory": "C:\\cygwin64\\tmp\\jest",
+    "clearMocks": false,
+    "coveragePathIgnorePatterns": [
+      "\\\\abcd\\\\"
+    ],
+    "globals": {},
+    "haste": {
+      "providesModuleNodeModules": []
+    },
+    "moduleDirectories": [
+      "node_modules"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "jsx",
+      "node"
+    ],
+    "moduleNameMapper": {},
+    "modulePathIgnorePatterns": [],
+    "name": "37d1a162b811e593a9f4778ada0d9ec7",
+    "resetMocks": false,
+    "resetModules": false,
+    "rootDir": "C:\\cygwin64\\home\\joao.fernandes\\project-sample",
+    "roots": [
+      "C:\\cygwin64\\home\\joao.fernandes\\project-sample"
+    ],
+    "setupFiles": [
+      "C:\\cygwin64\\home\\joao.fernandes\\project-sample\\node_modules\\regenerator-runtime\\runtime.js"
+    ],
+    "snapshotSerializers": [],
+    "testEnvironment": "jest-environment-jsdom",
+    "testMatch": [
+      "**/__tests__/**/*.js?(x)",
+      "**/?(*.)(spec|test).js?(x)"
+    ],
+    "testPathIgnorePatterns": [
+      "\\\\node_modules\\\\"
+    ],
+    "testRegex": "",
+    "testRunner": "C:\\cygwin64\\home\\joao.fernandes\\project-sample\\node_modules\\jest-jasmine2\\build\\index.js",
+    "testURL": "about:blank",
+    "timers": "real",
+    "transform": [
+      [
+        "^.+\\.jsx?$",
+        "C:\\cygwin64\\home\\joao.fernandes\\project-sample\\node_modules\\babel-jest\\build\\index.js"
+      ]
+    ],
+    "transformIgnorePatterns": [
+      "\\\\node_modules\\\\"
+    ]
+  },
+  "framework": "jasmine2",
+  "globalConfig": {
+    "bail": false,
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "**/src/**/*.{js,jsx}"
+    ],
+    "coverageReporters": [
+      "json",
+      "text",
+      "lcov",
+      "clover"
+    ],
+    "expand": false,
+    "mapCoverage": false,
+    "noStackTrace": false,
+    "notify": false,
+    "projects": [
+      "C:/cygwin64/home/joao.fernandes/project-sample"
+    ],
+    "rootDir": "C:\\cygwin64\\home\\joao.fernandes\\project-sample",
+    "testPathPattern": "",
+    "testResultsProcessor": "C:\\cygwin64\\home\\joao.fernandes\\project-sample\\node_modules\\jest-teamcity-reporter\\index.js",
+    "updateSnapshot": "new",
+    "useStderr": false,
+    "verbose": true,
+    "watch": false,
+    "watchman": true
+  },
+  "version": "20.0.4"
+}
+
+ RUNS  ...sum.test.js
+[K[1A[K[1A
+ RUNS  ...sum.test.js
+[K[1A[K[1A
+ RUNS  ...sum.test.js
+[K[1A[K[1A
+ RUNS  ...sum.test.js
+[K[1A[K[1A----------|----------|----------|----------|----------|----------------|
+File      |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+----------|----------|----------|----------|----------|----------------|
+All files |  Unknown |  Unknown |  Unknown |  Unknown |                |
+----------|----------|----------|----------|----------|----------------|
