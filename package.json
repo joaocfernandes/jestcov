@@ -4,10 +4,10 @@
   "description": "Sample Jest Coverage",
   "main": "index.js",
   "dependencies": {
-    "jest": "^20.0.4"
+    "jest": "^24.9.0"
   },
   "devDependencies": {
-    "jest": "^20.0.4",
+    "jest": "^24.9.0",
     "jest-teamcity-reporter": "^0.6.2"
   },
   "scripts": {
